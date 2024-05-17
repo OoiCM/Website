@@ -43,8 +43,8 @@ const TAB_DATA = [
         content: (
           <ul className="list-disc pl-4">
                 <li>Asia Pacific University - Degree</li>
-                <li>SMJK Chung Ling - Pre-U(STPM)</li>
-                <li>SMJK Chung Ling - Secondary(SPM)</li>
+                <li>SMJK Chung Ling - Pre-U (STPM)</li>
+                <li>SMJK Chung Ling - Secondary (SPM)</li>
           </ul>
         ),
     }
