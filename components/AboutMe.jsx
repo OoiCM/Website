@@ -9,13 +9,12 @@ const TAB_DATA = [
         id: "skills",
         content: (
           <ul className="list-disc pl-1">
+                <li>Python</li>
                 <li>R</li>
                 <li>C</li>
                 <li>Java</li>
-                <li>Pine Script</li>
                 <li>SQL</li>
-                <li>Python</li>
-                <li>System Analysis & Design</li>
+                <li>C++</li>
           </ul>
         ),
     },
@@ -43,8 +42,9 @@ const TAB_DATA = [
         id: "education",
         content: (
           <ul className="list-disc pl-4">
-                <li>Asia Pacific University</li>
-                <li>SMJK Chung Ling</li>
+                <li>Asia Pacific University - Degree</li>
+                <li>SMJK Chung Ling - Pre-U(STPM)</li>
+                <li>SMJK Chung Ling - Secondary(SPM)</li>
           </ul>
         ),
     }
@@ -69,8 +69,7 @@ const AboutMe = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-teal-500 to-teal-100 text-transparent bg-clip-text">About Me</h1>
                     <p className="text-base text-justify lg:text-lg">
-                        I am Ooi Chong Ming, a current undergraduate student pursuing a degree in Computer Science with a specialization in Data Analytics at Asia Pacific University. 
-                        Throughout my first two years of degree program and volunteer opportunities, I have developed a strong confidence in my analytic skill and problem-solving skill, so I believe I am a worthy asset to your company. My degree program had provided me with a robust foundation in data management, statistical analysis and related programming, directly correlating with the responsibilities and demand of a Product Analyst role. </p>
+                        I am Ooi Chong Ming, a Motivated and dedicated Bachelor of Computer Science student specializing in Data Analytics at Asia Pacific University. With a strong academic foundation and practical experience, I am passionate about harnessing the power of data to drive insights and innovation. Skilled in Python, SQL, R programming, and more, I am adept at analyzing complex datasets to extract meaningful insights. My background as a math tutor has honed my communication and problem-solving skills, enabling me to effectively convey technical concepts and collaborate with diverse teams. Eager to leverage my skills and contribute to impactful projects in the dynamic field of data analytics. Let's connect and explore the possibilities of data-driven decision-making together! </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 

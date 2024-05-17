@@ -3,11 +3,11 @@ import React from "react";
 const achievementsList = [
     {
         metric: "Age",
-        value: "21",
+        value: "22",
     },
     {
         metric: "MBTI",
-        value: "INFJ",
+        value: "INTJ-T",
     },
     {
         metric: "From",
